@@ -98,13 +98,17 @@ body {
 }
 .chat-actions {
   display: flex;
-  gap: 8px;
+  justify-content: flex-end;
+  gap: 12px;
+  border-bottom: 1px solid #b7b4b4;
+  padding-bottom: 10px;
 }
 
 .chat-messages {
   display: flex;
   flex-direction: column;
   background: #f6f8f9;
+  border-bottom: 1px solid #b7b4b4;
 
 }
 
