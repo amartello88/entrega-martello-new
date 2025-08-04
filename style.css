@@ -124,6 +124,7 @@ body {
   flex-direction: column;
   background: #f6f8f9;
   border-bottom: 1px solid #b7b4b4;
+  height: 490px;
 
 }
 .message.sent  {
