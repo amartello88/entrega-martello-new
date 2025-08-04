@@ -89,10 +89,22 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 15px;
+  margin-top: 10px;
 }
+.chat-header h3 {
+  font-size: 18px;
+  font-weight: bold;
+  align-self: center;
+}
+.chat-header p {
+  font-size: 15px;
+  align-self: center;
+
+}
+
 .chat-header img {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   padding-left: 8px;
 }
