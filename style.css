@@ -128,11 +128,23 @@ body {
   background-color:  #cce5ff;
   border-radius: 15px;
   padding: 8px;
-  margin-right: 5px;
+  margin-right: 8px;
   margin-top: 15px;
 
 }
-
+.timestamp {
+  font-size: 10px;
+  color: #9193a6;
+}
+.message.received {
+  align-self: flex-start;
+  background-color: #ededed;
+  border-radius: 15px;
+  padding: 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 8px;
+}
 /* footer */
 
 .chat-footer {
