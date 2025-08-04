@@ -123,6 +123,15 @@ body {
   border-bottom: 1px solid #b7b4b4;
 
 }
+.message.sent  {
+  align-self: flex-end;
+  background-color:  #cce5ff;
+  border-radius: 15px;
+  padding: 8px;
+  margin-right: 5px;
+  margin-top: 15px;
+
+}
 
 /* footer */
 
