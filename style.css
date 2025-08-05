@@ -123,7 +123,12 @@ main {
   background: none;
   margin-left: 12px;
   cursor: pointer;
-  
+}
+.chat-actions button {
+  border: none;
+  background: none;
+  font-size: 20px;
+  padding: 5px;
 }
 
 .chat-messages {
