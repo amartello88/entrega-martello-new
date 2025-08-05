@@ -21,7 +21,7 @@ body {
 
 .sidebar {
   background-color: #fefefe;
-  border-right: 1px solid #7d7d7d;
+  border-right: 1px solid #d9dada;
   display: flex;
   flex-direction: column;
   width: 290px;
@@ -123,13 +123,13 @@ body {
   display: flex;
   flex-direction: column;
   background: #f6f8f9;
-  border-bottom: 1px solid #b7b4b4;
+  border-bottom: 1px solid #d9dada;
   height: 490px;
 
 }
 .message.sent  {
   align-self: flex-end;
-  background-color:  #cce5ff;
+  background-color:  #e4f2f7;
   border-radius: 15px;
   padding: 8px;
   margin-right: 8px;
@@ -161,4 +161,11 @@ body {
   padding: 10px 15px;
   background-color: #fefefe;;
   border-top: 1px solid #e0e0e0;
+}
+.chat-footer input {
+  flex: 1;
+  background-color:#fefefe;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 12px;
 }
