@@ -114,8 +114,11 @@ body {
   justify-content: flex-end;
   gap: 12px;
   padding-bottom: 10px;
+  border: none;
+  background: none;
   border-bottom: 1px solid #b7b4b4;
-  margin-right: 7px;
+  margin-right: 9px;
+  
 }
 
 
@@ -161,6 +164,7 @@ body {
   padding: 10px 15px;
   background-color: #fefefe;;
   border-top: 1px solid #e0e0e0;
+  outline: 1px solid #e0e0e0;
 }
 .chat-footer input {
   flex: 1;
@@ -168,4 +172,10 @@ body {
   padding: 8px;
   border-radius: 10px;
   font-size: 12px;
+}
+.chat-footer button {
+  border: none;
+  background: none;
+  padding: 10px;
+  cursor: pointer;
 }
