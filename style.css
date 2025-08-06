@@ -164,6 +164,12 @@ main {
   margin-left: 8px;
   line-height: 1.5;
 }
+
+.writing {
+  color: #09990b;
+  font-style: italic;
+  font-size: 12px;
+}
 /* footer */
 
 .chat-footer {
