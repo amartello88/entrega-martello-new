@@ -146,7 +146,6 @@ main {
   background: #f6f8f9;
   border-bottom: 1px solid #d9dada;
   height: 490px;
-
 }
 .message.sent  {
   align-self: flex-end;
@@ -157,7 +156,6 @@ main {
   margin-top: 15px;
   line-height: 1.5;
   font-size: 14px;
-
 }
 .timestamp {
   font-size: 10px;
