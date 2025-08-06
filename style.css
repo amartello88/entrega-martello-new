@@ -71,9 +71,18 @@ body {
 
 .status {
   font-size: 13px;
-  color: #bfbcbc;
   position: relative;
   padding-left: 12px;
+}
+.status::before {
+  content: '●';
+  margin-right: 0.4rem;
+}
+.online::before {
+  color: green;
+}
+.offline::before {
+  color: red;
 }
 
 /* chat style */
