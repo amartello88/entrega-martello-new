@@ -215,7 +215,7 @@ main {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .sidebar {
-    width: 200px;
+    width: 250px;
     height: auto;
   }
   main {
