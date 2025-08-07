@@ -215,8 +215,13 @@ main {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .sidebar {
-    display: none;
+    width: 200px;
+    height: auto;
   }
+  main {
+  width: 991px;
+}
+
 }
 
 
@@ -225,4 +230,21 @@ main {
   .sidebar {
     display: none;
   }
+  .chat-header h3 {
+  font-size: 15px;
+  font-weight: bold;
+  align-self: center;
+}
+.chat-header p {
+  font-size: 12px;
+  align-self: center;
+}
+.fa-solid {
+  font-size: small;
+
+}
+.message.sent, p, .message.received {
+  font-size:12px ;
+  margin-bottom: 8px;
+}
 }
